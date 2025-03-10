@@ -46,6 +46,10 @@ ESTRUCTURA:
 create<PatientState>(): Creación del Store como función de orden superior
 (devtools(persist(...))): Encadenamiento y orden correcto de los Middlewares
 
+La razón por la que debemos usar los paréntesis de esta forma es que cada middleware 
+es una función que toma el store y lo modifica, devolviendo un nuevo store mejorado. 
+Al encadenarlos, aseguramos que cada uno de los middlewares se aplique en orden correcto 
+sin alterar el flujo.
 */
 
 //Type
