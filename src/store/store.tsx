@@ -10,7 +10,7 @@ sencilla y flexible. Su nombre proviene del alemán y significa "estado" o "cond
 A diferencia de otras soluciones como Redux o Context API, Zustand es minimalista y 
 fácil de usar, con una API muy simple que facilita la gestión del estado global de la aplicación.
 
-1) create:
+1) create<>:
 create es una función proporcionada por Zustand para crear un "store" o contenedor de estado. 
 Este store es donde defines el estado global de tu aplicación y las funciones que lo manipulan. 
 Cuando usas create, defines la estructura inicial de tu estado y las funciones que puedes usar 
